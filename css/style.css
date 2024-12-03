@@ -16,15 +16,13 @@ header{
     display: flex;
     background-color: #409CBC;
     box-shadow: 0 0 10px #ddd;
-
 }
 .logo {
     width: 18%;
     float: left;
     text-align: center;
     background-color: #ffffff;
-    padding: 15px;
-   
+    padding: 15px;   
 }
 .logo a img{
     width: 70px;
