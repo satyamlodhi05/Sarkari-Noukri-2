@@ -141,10 +141,23 @@ header{
     background-color: #5EB5D3;
     border-radius: 10px;
 }
-.slide-bar-view{
-    width: 82%;
-    float: left;
+
+.side-bar-right {
+  width: 82%;
+  float: right;
+  text-align: center;
 }
+.side-bar-right-full{
+  width: 100%;
+  float: left;
+  padding: 20px;
+}
+.side-bar-right-full h5{
+  font-family: "Montserrat", serif;
+  font-size: 30px;
+  color: #193463;
+}
+
 
 /* footer */
 .main-footer{
