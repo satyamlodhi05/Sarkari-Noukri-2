@@ -4,7 +4,7 @@
     list-style: none;
     margin: 0;
     padding: 0;
-    font-family: "Poppins", serif;
+    font-family: "Montserrat", serif;
 }
 header{
     width: 100%;
@@ -211,4 +211,294 @@ header{
 .slide-bar::-webkit-scrollbar-thumb{
   border-radius: 20px;
   background: #5EB5D3;
+}
+/*       font page      */
+
+
+.container{
+  max-width: 1280px;
+  width: 100%;
+  margin: auto;
+
+}
+.font-page{
+  width: 100%;
+  float: left;
+}
+.header-font-page{
+  width: 100%;
+  float: left;
+}
+.header-font-page{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.font-page-logo {
+  display: flex;
+  align-items: start;
+}
+.font-page-logo a img{
+  width: 90px;
+ 
+}
+.font-page-logo-name a h4{
+  font-size: 25px;
+  color: #172F5F;
+  font-family: "Poppins", serif;
+}
+.font-page-logo-name a{
+  color: #409CBC;
+  font-size: 15px;
+  font-weight: 600;
+}
+.search-bar-font-page input {
+  width: 300px;
+  padding: 15px 0;
+  padding-left: 10px;
+  border: 1px solid #5EB5D3;
+  border-radius: 30px;
+  color: #172F5F;
+}
+.search-bar-font-page input::placeholder {
+  color: #172F5F;
+}
+.search-bar-font-page i{
+  margin-left: -25px;
+}
+.header-menu-font-page{
+  width: 100%;
+}
+.header-menu-font-page ul{
+  display: flex;
+  width: 100%;
+  background-color: #172F5F;
+  padding: 15px;
+}
+.header-menu-font-page ul li{
+  position: relative;
+}
+.header-menu-font-page ul li a{
+  padding: 15px;
+  color: #ffffff;
+  border-right: 1px solid #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.dropdown-menu {
+  position: absolute;
+  width: 231px;
+  top: 35px;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-30px);
+  transition: 0.5s;
+  z-index: 33333;
+}
+.header-menu-font-page ul li:hover .dropdown-menu{
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(5px);
+}
+
+.dropdown-menu ul{
+  flex-direction: column;
+  background: #ffffff !important;
+  box-shadow: 0 4px 10px #ddd;
+  padding: 0px !important;
+}
+.dropdown-menu ul li a{
+  border: none;
+  padding: 10px 15px!important;
+  display: inline-block;
+  color: #000;
+  font-size: 14px;
+  transition: 0.5s;
+  width: 100%;
+}
+.dropdown-menu ul li a:hover{
+  background-color: #409CBC;
+  color: #ffffff;
+}
+.font-page-heading{
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+}
+.font-page-heading a{
+  font-size: 18px;
+  font-weight: 500;
+}
+.font-page-heading  h5{
+  font-size: 19px;
+  margin-top: 20px;
+  color: #172F5F;
+  font-weight: 600;
+}
+.font-page-sliding-job {
+  width: 100%;
+  float: left;
+  border: 1px solid #5EB5D3;
+  padding: 15px 0;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px #ddd;
+  text-align: center;
+}
+.font-page-all-government-category{
+  width: 100%;
+  float: left;
+  border: 1px solid #5EB5D3;
+  margin-top: 50px;
+  padding: 20px;
+  box-shadow: 0 0 20px #5eb6d348;
+}
+.font-page-all-government-category h4{
+  font-size: 22px;
+  color: #172F5F;
+  text-align: center;
+  width: 100%;
+}
+.font-page-all-box-government {
+  width: 100%;
+  float: left;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  padding: 10px;
+  margin-top: 20px;
+}
+.font-page-all-government-box {
+  width: 18%;
+  float: left;
+  border: 1px solid #5EB5D3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+}
+.font-page-all-government-box a{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.font-page-all-government-box a img{
+  width: 40px;
+  transition: 0.5s;
+}
+.font-page-all-government-box:hover img{
+  transform: rotateY(180deg);
+}
+.font-page-all-government-box a span{
+  font-size: 15px;
+  display: block;
+  padding-top: 15px;
+  margin-top: 20px;
+  border-top: 1px solid #5EB5D3;
+  color: #172F5F;
+  width: 100%;
+  display: inline-block;
+  font-weight: 600;
+}
+.main-font-page-Vacancy{
+  width: 100%;
+  float: left;
+  display: flex;
+  margin-top: 25px;
+}
+.main-font-page-Vacancy2{
+  width: 100%;
+  float: left;
+  display: flex;
+  margin-top: 25px;
+}
+.main-font-page-Vacancy3{
+  width: 100%;
+  float: left;
+  display: flex;
+  margin-top: 25px;
+}
+.font-page-vacancy-box-full{
+  width: 33%;
+  float: left;
+  margin-top: 20px;
+}
+.font-page-Vacancy-box {
+  width: 500px;
+  margin-left: -94px;
+  float: left;
+  height: 80px;
+  clip-path: polygon(100% 0%, 95% 50%, 100% 100%, 25% 100%, 19% 50%, 25% 0%);
+  background-color: #409CBC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.font-page-vacancy-box-full:nth-child(2) .font-page-Vacancy-box{
+  clip-path: polygon(93% 0, 100% 50%, 93% 100%, 7% 100%, 0 52%, 7% 0);
+  margin-left: 5px;
+  width: 435px;
+}
+.font-page-vacancy-box-full:nth-child(3) .font-page-Vacancy-box {
+  clip-path: polygon(75% 0%, 80% 50%, 75% 100%, 0% 100%, 5% 50%, 0% 0%);
+  margin-left: 40px;
+}
+.font-page-Vacancy-box h3 {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  max-width: 300px;
+  margin: auto;
+  margin-left: 150px;
+}
+.font-page-vacancy-box-full:nth-child(2) .font-page-Vacancy-box h3{
+  margin-left: 70px;
+}
+.font-page-vacancy-box-full:nth-child(3) .font-page-Vacancy-box h3{
+  margin-left: 70px;
+}
+
+.font-page-vacancy-box-full:nth-child(2) .font-page-box-links{
+  width: 375px;
+  float: left;
+  margin-left: 35px;
+  padding: 20px;
+}
+.font-page-vacancy-box-full:nth-child(3) .font-page-box-links{
+   margin-left: 40px;
+} 
+.font-page-box-links {
+  border: 1px solid #5EB5D3;
+  width: 375px;
+  float: left;
+  margin-left: 31px;
+  padding: 20px;
+}
+.font-page-box-links ul li{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.font-page-box-links ul li i{
+  font-size: 7px;
+  color: #409CBC;
+  text-decoration: none !important;
+}
+.font-page-box-links ul li a{
+  text-decoration: underline;
+  font-size: 16px;
+}
+.btn-view-morel-links a{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 20px;
+  float: right;
+  color: #172F5F;
 }
